@@ -8,4 +8,6 @@ return [
     Modules\User\UserServiceProvider::class,
     Modules\Dashboard\DashboardServiceProvider::class,
     Modules\Acl\AclServiceProvider::class,
+    Modules\Blog\BlogServiceProvider::class,
+    Modules\Index\IndexServiceProvider::class,
 ];

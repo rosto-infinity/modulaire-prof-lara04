@@ -9,11 +9,14 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/js/app.js'
+                'resources/js/app.js',
+                'resources-site/js/index-app.js',
+        'resources-site/css/site.css'
             ],
             refresh: [
                 'resources/**/*',
-            'modules/**/views/**/*.blade.php'
+              'resources-site/**/*',
+        'modules/**/views/**/*.blade.php'
 
             ]
         }),
@@ -31,7 +34,8 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@resources': '/resources'
+            '@resources': '/resources',
+             '@resourcesSite': '/resources-site'
         }
     }
 })

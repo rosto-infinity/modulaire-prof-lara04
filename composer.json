@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.2",
         "daniel-cintra/modular": "^0.4.6",
+        "daniel-cintra/modular-blog": "^0.4.1",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9"
     },
