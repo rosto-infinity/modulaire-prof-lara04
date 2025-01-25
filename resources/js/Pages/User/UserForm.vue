@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="mt-6">
-                    <AppLabel for="email">{{ __('Password') }}</AppLabel>
+                    <AppLabel for="password">{{ __('Password') }}</AppLabel>
                     <AppInputPassword
                         id="password"
                         v-model="form.password"
