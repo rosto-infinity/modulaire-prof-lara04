@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@tiptap/core':
+        specifier: ^2.11.3
+        version: 2.11.3(@tiptap/pm@2.11.3)
     devDependencies:
       '@inertiajs/vue3':
         specifier: ^2.0.0
