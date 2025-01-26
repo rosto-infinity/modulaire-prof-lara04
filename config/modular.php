@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'login-url' => '/',
+    'login-url' => '/rosto-rosto',
     'default-logged-route' => 'dashboard.index',
 ];
