@@ -2,12 +2,12 @@
 
 return [
     App\Providers\AppServiceProvider::class,
-
-    Modules\Support\SupportServiceProvider::class,
-    Modules\AdminAuth\AdminAuthServiceProvider::class,
-    Modules\User\UserServiceProvider::class,
-    Modules\Dashboard\DashboardServiceProvider::class,
+    App\Providers\FortifyServiceProvider::class,
     Modules\Acl\AclServiceProvider::class,
+    Modules\AdminAuth\AdminAuthServiceProvider::class,
     Modules\Blog\BlogServiceProvider::class,
+    Modules\Dashboard\DashboardServiceProvider::class,
     Modules\Index\IndexServiceProvider::class,
+    Modules\Support\SupportServiceProvider::class,
+    Modules\User\UserServiceProvider::class,
 ];

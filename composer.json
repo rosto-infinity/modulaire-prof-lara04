@@ -13,6 +13,7 @@
         "daniel-cintra/modular": "^0.4.6",
         "daniel-cintra/modular-blog": "^0.4.1",
         "laravel/framework": "^11.31",
+        "laravel/jetstream": "^5.3",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
